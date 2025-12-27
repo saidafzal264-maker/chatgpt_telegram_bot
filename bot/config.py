@@ -12,8 +12,8 @@ with open(config_dir / "config.yml", 'r') as f:
 config_env = dotenv.dotenv_values(config_dir / "config.env")
 
 # config parameters
-telegram_token = config_yaml["telegram_token"]
-openai_api_key = config_yaml["openai_api_key"]
+telegram_token = config_yaml["8576476633:AAFDcSvp82YIx6jwwG6uSd9pueWaDBzsbV0"]
+openai_api_key = config_yaml["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"]
 openai_api_base = config_yaml.get("openai_api_base", None)
 allowed_telegram_usernames = config_yaml["allowed_telegram_usernames"]
 new_dialog_timeout = config_yaml["new_dialog_timeout"]
