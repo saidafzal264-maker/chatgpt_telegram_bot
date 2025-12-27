@@ -1,4 +1,4 @@
-pip requirements
+
 python-telegram-bot[rate-limiter]==22.5
 openai==2.14.0
 tiktoken==0.12.0
